@@ -153,6 +153,10 @@ if (arr.length <= 2) {
     console.log("enter a array with more numbers");
 }
 ```jsx
+let arr = prompt("Enter the array");
+if (arr.length <= 2) {
+    console.log("enter a array with more numbers");
+}
 let first = -Infinity;
 let second = -Infinity;
 for (let i = 0; i < arr.length; i++) {
