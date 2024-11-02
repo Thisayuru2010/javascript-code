@@ -136,6 +136,8 @@ let num = prompt('Enter a number');
 let number = Number(num);
 for (let i = 1; i <= 10; i++) {
     console.log(`${number} * ${i} = ${number * i}`);
+the coding experience is getting harder and harder i am now learning the . commands on javascript
+
 }
 ```
 
