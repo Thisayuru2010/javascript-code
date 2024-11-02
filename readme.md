@@ -139,4 +139,28 @@ for (let i = 1; i <= 10; i++) {
 }
 ```
 Now coding is getting harder to me .I am learning .commands now.I know Its gettting harder till i be at a scertain point.
+10. **Find the Second Largest Number in an Array**
+
+Write a function that finds the second largest number in an array.
+
+**Example:**
+
+- Input: `[3, 5, 7, 2, 8]`
+- Output: `7`
+
+- let arr = prompt("Enter the array");
+if (arr.length <= 2) {
+    console.log("enter a array with more numbers");
+}
+let first = -Infinity;
+let second = -Infinity;
+for (let i = 0; i < arr.length; i++) {
+    if (arr[i] > first) {
+        second = first;
+        second = arr[i];
+    } else if (arr[i] > second) {
+        second = arr[i];
+    }
+}
+console.log(second);
 
