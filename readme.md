@@ -148,10 +148,11 @@ Write a function that finds the second largest number in an array.
 - Input: `[3, 5, 7, 2, 8]`
 - Output: `7`
 
-- let arr = prompt("Enter the array");
+let arr = prompt("Enter the array");
 if (arr.length <= 2) {
     console.log("enter a array with more numbers");
 }
+```jsx
 let first = -Infinity;
 let second = -Infinity;
 for (let i = 0; i < arr.length; i++) {
