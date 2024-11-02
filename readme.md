@@ -1,4 +1,4 @@
-# javascript-code
+# My coding experience with js
 My javascript coding experiense
 It is a long journey ahead.I just learned coding and entered the self learning stage
 I am 14 and I am solving simple problems now.here ar some
