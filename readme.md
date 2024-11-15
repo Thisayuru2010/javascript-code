@@ -163,6 +163,11 @@ for (let i = 0; i < arr.length; i++) {
     if (arr[i] > first) {
         second = first;
         second = arr[i];
+```
+some console issues ran into me in html I dont know how to fix them but i am taking help from the sosiety
+they are very helpful i hope i can fix it for noe its the basics just solving problems.
+going and learning advanced tutorials
+also i learned full hand typing now i am practising now.
     } else if (arr[i] > second) {
         second = arr[i];
     }
